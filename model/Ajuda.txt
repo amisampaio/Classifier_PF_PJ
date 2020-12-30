@@ -1,0 +1,19 @@
+-------------------------
+* Montar uma function em python para classificar se um campo texto é:
+1. PF (Pessoa Física) / 2. PJ (Pessoa Jurídica) / 3. NP (Não é Pessoa)
+-------------------------
+* Dados para treino : 1. coletar a base de treino independente ou 2. utilizar a base anexa.
+-------------------------
+* Entregáveis
+1. Lib Python (Classificador_PF_PJ) / 2. Exemplo_Classificador_PF_PJ.ipynb
+-------------------------
+* Exemplo:
+
+import Classificador_PF_PJ
+print(is_PF_PJ("Amilcar Sampaio")) ---> "PF"
+print(is_PF_PJ(""Comercial Cel Eireli")) ---> "PJ"
+print(is_PF_PJ(""Cadeira")) ---> "NP"
+
+-------------------------
+* Assertividade do modelo 80%
+-------------------------
